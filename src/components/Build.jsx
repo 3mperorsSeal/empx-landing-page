@@ -32,7 +32,7 @@ const Build = () => {
               <p className="mb-0 subtext font-red-hat">
                 Our documentation covers User guide and Developer guide. We have
                 an in-depth description on how EMPX works as well as safety and
-                efficiency practices. Join our Telegram and Twitter for up to
+                efficiency practices. Join our Telegram and Twitter/X for up to
                 date news and developments. Build with EMPX and reach out to us
                 for integrations.
               </p>

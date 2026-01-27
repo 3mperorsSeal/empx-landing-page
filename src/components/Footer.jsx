@@ -14,15 +14,38 @@ const Footer = () => {
           <div className="col-md-6 d-flex gap-md-5 gap-4 pt-4 ps-md-5 d-md-flex-nowrap flex-wrap">
             <div className="contact-info font-red-hat">
               <h6 className="fw-bold">Contact Us</h6>
-              <p className="mb-0">Twitter : @EmpXio</p>
+              <p className="mb-0">
+                <a
+                  href="https://x.com/EmpXio"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Twitter/X
+                </a>
+              </p>
             </div>
             <div className="location font-red-hat">
               <h6 className="fw-bold">Integration Support</h6>
-              <p className="mb-0">Support@EMPX.io</p>
+              <p className="mb-0">
+                <a
+                  href="mailto:Support@EMPX.io"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Support @EMPX.io
+                </a>
+              </p>
             </div>
             <div className="location font-red-hat">
               <h6 className="fw-bold">Documentation</h6>
-              <p className="mb-0">Support@EMPX.io</p>
+              <p className="mb-0">
+                <a
+                  href="https://docs.empx.io/"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Documentation
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -38,18 +61,18 @@ const Footer = () => {
           </div>
           <div className="col-md-6 col-12 ps-md-5">
             <div className="social-icons d-flex align-items-center gap-md-5 gap-2 mt-md-0 mt-4">
-              <Link href="#">
+              <a href="https://docs.empx.io/" target="_blank" rel="noreferrer">
                 <img alt="social1" src="assets/images/doc.svg" />
-              </Link>
-              <Link href="#">
+              </a>
+              {/* <Link href="#">
                 <img alt="social2" src="assets/images/git.svg" />
-              </Link>
+              </Link> */}
               {/* <a href="#">
                 <img alt="social3" src="assets/images/insta.svg" />
               </a> */}
-              <Link href="#">
+              <a href="https://x.com/EmpXio" target="_blank" rel="noreferrer">
                 <img alt="social4" src="assets/images/twitter.svg" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
