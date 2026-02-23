@@ -231,20 +231,17 @@ export default function MPXBridgeUI() {
               switch (position) {
                 case -2:
                 case 2:
-                  // color = "#37260C";
-                  color = "#4C320B";
+                  color = "#434343";
                   break;
                 case -1:
                 case 1:
-                  // color = "#4C320B";
-                  color = "#4C320B";
+                  color = "#4F4F4F";
                   break;
                 case 0:
                   color = "#FF9900";
                   break;
                 default:
-                  color = "#4C320B";
-                // color = "#4C320B";
+                  color = "#4F4F4F";
               }
 
               const scale =
