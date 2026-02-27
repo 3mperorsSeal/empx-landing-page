@@ -223,16 +223,15 @@ export default function MPXBridgeUI() {
           style={{ overflow: "hidden", height: "600px", position: "relative" }}
           drag="y"
           dragConstraints={{ top: 0, bottom: 0 }}
-          dragElastic={0.15}
+          dragElastic={0.05}
+          dragMomentum={false}
           onDragEnd={(event, info) => {
-            const swipeThreshold = 60;
+            const swipeThreshold = 30;
 
             if (info.offset.y < -swipeThreshold) {
-              // swipe up
               playSound();
               setActiveIndex((prev) => (prev + 1) % MENU_CONFIG.length);
             } else if (info.offset.y > swipeThreshold) {
-              // swipe down
               playSound();
               setActiveIndex((prev) =>
                 prev === 0 ? MENU_CONFIG.length - 1 : prev - 1,
