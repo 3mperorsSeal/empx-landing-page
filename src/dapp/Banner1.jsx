@@ -107,8 +107,8 @@ const MENU_CONFIG = [
       //   "Follow us on X Documentation on Medium Join our Telegram Reach out for Integrations and support .",
       subtitle: (
         <>
-          Follow us on X <br /> Read our Documentation <br /> Join our Telegram <br /> Reach
-          out for Integrations and support
+          Follow us on X <br /> Read our Documentation <br /> Join our Telegram{" "}
+          <br /> Reach out for Integrations and support
         </>
       ),
       // buttonText: "Start Staking",
@@ -189,7 +189,7 @@ export default function MPXBridgeUI() {
       } else {
         // scroll up
         setActiveIndex((prev) =>
-          prev === 0 ? MENU_CONFIG.length - 1 : prev - 1
+          prev === 0 ? MENU_CONFIG.length - 1 : prev - 1,
         );
       }
 
@@ -218,9 +218,26 @@ export default function MPXBridgeUI() {
 
       {/* LEFT SLIDER */}
       <div className="mpx-left z10">
-        <div
+        <motion.div
           className="mpx-slider"
-          style={{ overflow: "hiddens", height: "600px", position: "relative" }}
+          style={{ overflow: "hidden", height: "600px", position: "relative" }}
+          drag="y"
+          dragConstraints={{ top: 0, bottom: 0 }}
+          dragElastic={0.05}
+          dragMomentum={false}
+          onDragEnd={(event, info) => {
+            const swipeThreshold = 30;
+
+            if (info.offset.y < -swipeThreshold) {
+              playSound();
+              setActiveIndex((prev) => (prev + 1) % MENU_CONFIG.length);
+            } else if (info.offset.y > swipeThreshold) {
+              playSound();
+              setActiveIndex((prev) =>
+                prev === 0 ? MENU_CONFIG.length - 1 : prev - 1,
+              );
+            }
+          }}
         >
           <AnimatePresence>
             {MENU_CONFIG.map((item, i) => {
@@ -231,35 +248,32 @@ export default function MPXBridgeUI() {
               switch (position) {
                 case -2:
                 case 2:
-                  // color = "#37260C";
-                  color = "#4C320B";
+                  color = "#434343";
                   break;
                 case -1:
                 case 1:
-                  // color = "#4C320B";
-                  color = "#4C320B";
+                  color = "#4F4F4F";
                   break;
                 case 0:
                   color = "#FF9900";
                   break;
                 default:
-                  color = "#4C320B";
-                // color = "#4C320B";
+                  color = "#4F4F4F";
               }
 
               const scale =
                 position === 0
                   ? 1
                   : position === 1 || position === -1
-                  ? 0.7
-                  : 0.45;
+                    ? 0.7
+                    : 0.45;
 
               const opacity =
                 position === 0
                   ? 1
                   : position === 1 || position === -1
-                  ? 1
-                  : 0.7;
+                    ? 1
+                    : 0.7;
 
               let yOffsetBase = 120;
               if (window.innerWidth < 480) {
@@ -325,7 +339,7 @@ export default function MPXBridgeUI() {
               );
             })}
           </AnimatePresence>
-        </div>
+        </motion.div>
       </div>
 
       {/* RIGHT CONTENT */}
