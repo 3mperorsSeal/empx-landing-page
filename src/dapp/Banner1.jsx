@@ -357,10 +357,12 @@ export default function MPXBridgeUI() {
             <p className="mpx-subtitle">{activeItem.right.subtitle}</p>
             {activeItem.key !== "socials" ? (
               <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
+                whileHover={activeItem.right.buttonLink ? { scale: 1.05 } : {}}
+                whileTap={activeItem.right.buttonLink ? { scale: 0.97 } : {}}
                 className="mpx-button"
+                style={!activeItem.right.buttonLink ? { cursor: "not-allowed", opacity: 0.7 } : {}}
                 onClick={() => {
+                  if (!activeItem.right.buttonLink) return;
                   playClickSound();
                   window.open(activeItem.right.buttonLink, "_blank");
                 }}
@@ -483,10 +485,12 @@ export default function MPXBridgeUI() {
               <h2 className="mpx-title">{activeItem.right.extra.title}</h2>
               <p className="mpx-subtitle">{activeItem.right.extra.subtitle}</p>
               <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
+                whileHover={activeItem.right.extra.buttonLink ? { scale: 1.05 } : {}}
+                whileTap={activeItem.right.extra.buttonLink ? { scale: 0.97 } : {}}
                 className="mpx-button"
+                style={!activeItem.right.extra.buttonLink ? { cursor: "not-allowed", opacity: 0.7 } : {}}
                 onClick={() => {
+                  if (!activeItem.right.extra.buttonLink) return;
                   playClickSound();
                   window.open(activeItem.right.extra.buttonLink, "_blank");
                 }}
