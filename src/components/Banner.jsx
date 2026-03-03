@@ -59,7 +59,7 @@ const Banner = () => {
             <div className="col-12">
               <h1
                 data-aos="zoom-in-up"
-                className="banner-title fw-bold text-center "
+                className="banner-title fw-bold text-center mll"
               >
                 EMPX
               </h1>

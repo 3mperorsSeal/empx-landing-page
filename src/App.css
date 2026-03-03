@@ -89,7 +89,7 @@ body {
 } */
 
 .banner-title {
-  font-size: 400px;
+  font-size: 409px;
   color: var(--light);
 }
 
@@ -420,26 +420,25 @@ small {
   transition: all 0.5s ease-in-out;
 }
 
-.swiper-slide:hover .sliding h3 {
+/* .swiper-slide:hover .sliding h3 {
   transform: translate(10%, 1%);
-}
+} */
 
 .swiper-slide .sliding p {
   transition: all 0.5s ease-in-out;
 }
 
-.swiper-slide:hover .sliding p {
+/* .swiper-slide:hover .sliding p {
   transform: translate(11%, 1%);
-  /* text-align: center; */
-}
+} */
 
 .swiper-slide .sliding button {
   transition: all 0.5s ease-in-out;
 }
 
-.swiper-slide:hover .sliding button {
+/* .swiper-slide:hover .sliding button {
   transform: translate(20%, 1%);
-}
+} */
 
 .swiper-slide .sliding img {
   transition: all 0.5s ease-in-out;
@@ -1205,10 +1204,17 @@ p {
     right: 7vw;
   }
 }
+.mll{
+  position: relative;
+  left:-24px
+}
 @media (min-width: 1200px) and (max-width: 1400px) {
   .banner-title {
-    font-size: 330px;
+    font-size: 353px;
   }
+  .mll{
+  left:-20px
+}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .banner-title {
@@ -1232,9 +1238,6 @@ p {
   }
   .mpx-subtitle {
     margin-bottom: 1.5rem;
-  }
-  .banner-title {
-    font-size: 350px;
   }
   .menu-arrow {
     height: 110px;
