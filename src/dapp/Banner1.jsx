@@ -13,12 +13,12 @@ const MENU_CONFIG = [
         "Bridge seamlessly across multipulse block chains Native Bridge and Assets",
       buttonText: "Enter Dapp",
       buttonLink: "https://beta.empx.io/via-bridge",
-      extra: {
-        title: "Hyperlane",
-        subtitle: "Warp Routes by Hyperlane",
-        buttonText: "Enter Dapp",
-        buttonLink: "https://beta.empx.io/native-bridge",
-      },
+      // extra: {
+      //   title: "Hyperlane",
+      //   subtitle: "Warp Routes by Hyperlane",
+      //   buttonText: "Enter Dapp",
+      //   buttonLink: "https://beta.empx.io/native-bridge",
+      // },
     },
   },
 
