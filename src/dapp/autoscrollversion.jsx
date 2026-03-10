@@ -16,9 +16,9 @@ const menuItems = [
     buttonLink: "https://swap-ui-green.vercel.app/swap",
   },
   {
-    title: "Trade",
-    subtitle: "Trade securely with low fees and fast execution.",
-    buttonText: "Enter Trade",
+    title: "Swap",
+    subtitle: "Swap securely with low fees and fast execution.",
+    buttonText: "Enter Swap",
     buttonLink: "https://swap-ui-green.vercel.app/swap",
   },
   {

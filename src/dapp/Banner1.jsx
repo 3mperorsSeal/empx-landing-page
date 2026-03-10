@@ -23,12 +23,12 @@ const MENU_CONFIG = [
   },
 
   {
-    key: "trade",
+    key: "Swap",
     left: {
-      title: "Trade",
+      title: "Swap",
     },
     right: {
-      title: "Trade",
+      title: "Swap",
       // subtitle: "Optimized Onchain Aggregation Best swap trades and routes",
       subtitle: (
         <>
