@@ -139,7 +139,7 @@ export default function WeDo() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="custom-btn">Customize Widget</button>
+                <button className="custom-btn">Explore</button>
               </a>
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function WeDo() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="custom-btn">Customize Widget</button>
+                <button className="custom-btn">Explore</button>
               </a>
             </div>
           </div>
