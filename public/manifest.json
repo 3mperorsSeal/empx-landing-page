@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "EMPX",
+  "name": "EMPX - Cross-Chain DeFi Platform",
+  "description": "DeFi platform with DEX aggregator, cross-chain bridge, limit orders, and gas bridge",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,33 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://empx.io",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0d1117",
+  "background_color": "#0d1117",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "business"],
+  "shortcuts": [
+    {
+      "name": "Swap",
+      "short_name": "Swap",
+      "description": "DEX Aggregator - Swap tokens across chains",
+      "url": "https://dapp.empx.io/swap",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bridge",
+      "short_name": "Bridge",
+      "description": "Cross-chain token bridge",
+      "url": "https://dapp.empx.io/via-bridge",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Limit Orders",
+      "short_name": "Limit",
+      "description": "Place limit orders on EMPX",
+      "url": "https://dapp.empx.io/swap?tab=limit",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
 }
