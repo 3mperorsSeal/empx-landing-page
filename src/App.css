@@ -398,6 +398,31 @@ small {
   );
 }
 
+.slide-4 {
+  background: linear-gradient(
+    126deg,
+    rgb(42, 42, 42) 0%,
+    rgb(26, 26, 26) 22%,
+    rgb(15, 15, 15) 26%,
+    #8b5cf6 130%,
+    #c084fc 0%
+  );
+  border: 2.5px solid #a855f7;
+  border-radius: 16px;
+  box-shadow: 2px -2px 32px 0px #0000001f inset;
+}
+
+.swiper-slide:hover .slide-4 {
+  background: linear-gradient(
+    180deg,
+    rgb(42, 42, 42) 0%,
+    rgb(26, 26, 26) 22%,
+    rgb(15, 15, 15) 26%,
+    #7c3aed 130%,
+    #c084fc 0%
+  );
+}
+
 .sliding h3 {
   font-size: 36px;
 }
