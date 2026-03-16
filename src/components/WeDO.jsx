@@ -108,12 +108,39 @@ export default function WeDo() {
               <h3 className="text-white">Cross-Chain Bridge</h3>
               <p className="text-white font-red-hat mb-4 mt-3">
                 Securely transfer assets between multiple chains with trusted
-                and secure infrastructure. Fast, affordable bridging with full <br />
+                and secure infrastructure. Fast, affordable bridging with full{" "}
+                <br />
                 transparency.
               </p>
               <a href="/dapp" target="_blank">
                 <button className="custom-btn">Explore</button>
               </a>{" "}
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="sliding slide-4">
+            <div className="py-5 px-md-5 px-3">
+              <div className="mb-5 pb-4">
+                <img
+                  alt="widget"
+                  className="mb-2 ring-updown"
+                  src="assets/images/slide4.svg"
+                />
+              </div>
+              <h3 className="text-white">Widget Integration</h3>
+              <p className="text-white font-red-hat mb-4 mt-3">
+                Seamlessly integrate EMPX DeFi functionality into your platform.
+                Our customizable widget allows integrators to embed swaps with
+                custom branding and earn fees.
+              </p>
+              <a
+                href="https://widget.empx.io/builder"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="custom-btn">Customize Widget</button>
+              </a>
             </div>
           </div>
         </SwiperSlide>
@@ -174,12 +201,39 @@ export default function WeDo() {
               <h3 className="text-white">Cross-Chain Bridge</h3>
               <p className="text-white font-red-hat mb-4 mt-3">
                 Securely transfer assets between multiple chains with trusted
-                and secure infrastructure. Fast, affordable bridging with full <br />
+                and secure infrastructure. Fast, affordable bridging with full{" "}
+                <br />
                 transparency.
               </p>
               <a href="/dapp" target="_blank">
                 <button className="custom-btn">Explore</button>
               </a>{" "}
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="sliding slide-4">
+            <div className="py-5 px-md-5 px-3">
+              <div className="mb-5 pb-4">
+                <img
+                  alt="widget"
+                  className="mb-2 ring-updown"
+                  src="assets/images/slide4.svg"
+                />
+              </div>
+              <h3 className="text-white">Widget Integration</h3>
+              <p className="text-white font-red-hat mb-4 mt-3">
+                Seamlessly integrate EMPX DeFi functionality into your platform.
+                Our customizable widget allows integrators to embed swaps with
+                custom branding and earn fees.
+              </p>
+              <a
+                href="https://widget.empx.io/builder"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="custom-btn">Customize Widget</button>
+              </a>
             </div>
           </div>
         </SwiperSlide>
