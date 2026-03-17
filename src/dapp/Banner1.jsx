@@ -12,12 +12,12 @@ const MENU_CONFIG = [
       subtitle:
         "Bridge seamlessly across multipulse block chains Native Bridge and Assets",
       buttonText: "Enter Dapp",
-      buttonLink: "https://beta.empx.io/via-bridge",
+      buttonLink: "https://dapp.empx.io/via-bridge",
       // extra: {
       //   title: "Hyperlane",
       //   subtitle: "Warp Routes by Hyperlane",
       //   buttonText: "Enter Dapp",
-      //   buttonLink: "https://beta.empx.io/native-bridge",
+      //   buttonLink: "https://dapp.empx.io/native-bridge",
       // },
     },
   },
@@ -36,7 +36,7 @@ const MENU_CONFIG = [
         </>
       ),
       buttonText: "Enter Dapp",
-      buttonLink: "https://beta.empx.io/swap",
+      buttonLink: "https://dapp.empx.io/swap",
     },
   },
 
@@ -54,7 +54,7 @@ const MENU_CONFIG = [
         </>
       ),
       buttonText: "Coming Soon",
-      // buttonLink: "https://beta.empx.io/via-bridge",
+      // buttonLink: "https://dapp.empx.io/via-bridge",
     },
   },
   {
@@ -73,7 +73,7 @@ const MENU_CONFIG = [
         </>
       ),
       buttonText: "Enter Dapp",
-      buttonLink: "https://beta.empx.io/gas",
+      buttonLink: "https://dapp.empx.io/gas",
     },
   },
   {
@@ -92,7 +92,7 @@ const MENU_CONFIG = [
         </>
       ),
       buttonText: "Enter Dapp",
-      buttonLink: "https://beta.empx.io/swap?tab=limit",
+      buttonLink: "https://dapp.empx.io/swap?tab=limit",
     },
   },
 
