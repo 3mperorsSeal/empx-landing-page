@@ -20,59 +20,59 @@ AOS.init();
 
 const SEO_DATA = {
   home: {
-    title: "EMPX - Cross-Chain DeFi Platform | DEX Aggregator, Bridge & Swap API",
-    description: "EMPX is a comprehensive DeFi platform featuring cross-chain DEX aggregation, limit orders, EMPX-Via bridge, gas bridge, and integration widgets. Swap tokens across 60+ chains with best rates.",
-    keywords: "DeFi, DEX Aggregator, Cross-chain swap, Token swap, Limit orders, Cross-chain bridge, Gas bridge, Swap API, DeFi API, Blockchain, Web3, Multi-chain, Crypto exchange",
+    title: "EMPX - DeFi Platform | DEX Aggregator, Bridge & Swap API | PulseChain, Base, Monad, BSC, Avalanche, Arbitrum",
+    description: "EMPX is a comprehensive DeFi platform featuring cross-chain DEX aggregation, limit orders, EMPX-Via bridge, gas bridge, and integration widgets. Swap tokens across 60+ chains including PulseChain, Base, Monad, BSC, Avalanche, Arbitrum, Polygon, HyperEVM, Optimism, Rootstock, Sonic, ETHW, and Sei.",
+    keywords: "DeFi, DEX Aggregator, Cross-chain swap, Token swap, Limit orders, Cross-chain bridge, Gas bridge, Swap API, DeFi API, Blockchain, Web3, Multi-chain, Crypto exchange, PulseChain, Base, Monad, BSC, Binance Smart Chain, Avalanche, Arbitrum, Polygon, HyperEVM, Optimism, Rootstock, Sonic, ETHW, Sei",
     url: "https://empx.io",
   },
   dapp: {
     default: {
       title: "EMPX Dapp | Cross-Chain DeFi Platform",
       description: "Access EMPX DeFi products: DEX aggregator, cross-chain bridge, limit orders, and gas bridge. Swap across 60+ chains.",
-      keywords: "DeFi dapp, DEX aggregator, Cross-chain bridge, Token swap, Limit orders",
+      keywords: "DeFi dapp, DEX aggregator, Cross-chain bridge, Token swap, Limit orders, PulseChain, Base, Monad, BSC, Avalanche, Arbitrum, Polygon, HyperEVM, Optimism, Rootstock, Sonic, ETHW, Sei",
       url: "https://dapp.empx.io",
     },
     "via-bridge": {
       title: "EMPX-Via Bridge | Cross-Chain Token Bridge",
       description: "Bridge tokens seamlessly across multiple blockchains with EMPX-Via Bridge. Secure, fast cross-chain transfers to 60+ chains.",
-      keywords: "Cross-chain bridge, Token bridge, Bridge tokens, Multi-chain bridge, Crypto bridge",
+      keywords: "Cross-chain bridge, Token bridge, Bridge tokens, Multi-chain bridge, Crypto bridge, PulseChain bridge, Base bridge, Avalanche bridge, Arbitrum bridge, Polygon bridge",
       url: "https://dapp.empx.io/via-bridge",
     },
     swap: {
       title: "EMPX Swap | On-Chain DEX Aggregator",
       description: "Swap tokens with the best rates using EMPX's on-chain DEX aggregator. Optimized routes across multiple DEXs for best swap prices.",
-      keywords: "DEX aggregator, Token swap, On-chain swap, Best swap rates, Crypto swap",
+      keywords: "DEX aggregator, Token swap, On-chain swap, Best swap rates, Crypto swap, PulseChain swap, Base swap, Monad swap, BSC swap, Avalanche swap",
       url: "https://dapp.empx.io/swap",
     },
     "limit-orders": {
       title: "EMPX Limit Orders | DeFi Trading Strategies",
       description: "Place limit orders on EMPX. Set your price and trade automatically with smart solvers and optimized routes.",
-      keywords: "Limit orders, DeFi trading, Price orders, Trading strategies, Crypto limit orders",
+      keywords: "Limit orders, DeFi trading, Price orders, Trading strategies, Crypto limit orders, PulseChain trading, Base DeFi, Monad trading",
       url: "https://dapp.empx.io/swap?tab=limit",
     },
     gas: {
       title: "EMPX Gas Bridge | Cross-Chain Gas Token",
       description: "Get native gas tokens on any chain. Bridge gas tokens to 60+ networks and never run out of gas exploring new ecosystems.",
-      keywords: "Gas bridge, Gas token, Native gas, Cross-chain gas, Blockchain gas",
+      keywords: "Gas bridge, Gas token, Native gas, Cross-chain gas, Blockchain gas, PulseChain gas, Base gas, Optimism gas, Arbitrum gas",
       url: "https://dapp.empx.io/gas",
     },
     "cross-chain": {
       title: "EMPX Cross-Chain Swap | Multi-Chain DEX",
       description: "Swap tokens across 30+ chains with smart cross-chain routing. The most advanced cross-chain DEX aggregator.",
-      keywords: "Cross-chain swap, Multi-chain DEX, Cross-chain DEX aggregator",
+      keywords: "Cross-chain swap, Multi-chain DEX, Cross-chain DEX aggregator, PulseChain, Base, Monad, BSC, Avalanche, Arbitrum, Polygon, HyperEVM, Optimism",
       url: "https://dapp.empx.io/cross-chain",
     },
   },
   widget: {
     title: "EMPX Widget | Embeddable Swap Widget",
     description: "Integrate EMPX swap functionality into your app with our iframe-ready widget. White-label DeFi integration for any platform.",
-    keywords: "Swap widget, Embeddable DeFi, Iframe widget, DeFi API, White-label swap, Integration widget",
+      keywords: "Swap widget, Embeddable DeFi, Iframe widget, DeFi API, White-label swap, Integration widget, PulseChain widget, Base widget",
     url: "https://widget.empx.io",
   },
   docs: {
     title: "EMPX API Documentation | Swap API",
     description: "EMPX API documentation. Integrate swap functionality, access DEX aggregator, cross-chain routing, and more.",
-    keywords: "Swap API, DeFi API, API documentation, Developer API, Blockchain API",
+      keywords: "Swap API, DeFi API, API documentation, Developer API, Blockchain API, PulseChain API, Base API, Cross-chain API",
     url: "https://docs.empx.io",
   },
 };
@@ -120,6 +120,7 @@ function SEO({ isDappPage = false }) {
           "name": "EMPX",
           "url": seoData.url,
           "description": seoData.description,
+          "icon": "https://empx.io/favicon.ico",
           "applicationCategory": "FinanceApplication",
           "operatingSystem": "Web",
           "offers": {
