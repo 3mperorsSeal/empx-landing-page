@@ -141,6 +141,10 @@ body {
   transform: translateY(-2px);
 }
 
+.banner-cta-btn {
+  white-space: nowrap;
+}
+
 .red-hat h4,
 small {
   font-family: "Red Hat Display", sans-serif;
@@ -866,6 +870,13 @@ p {
   .banner-title {
     font-size: 100px;
   }
+  .banner-cta-group {
+    gap: 0.5rem !important;
+  }
+  .banner-cta-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
   .w-fit {
     width: 100%;
   }
@@ -1393,6 +1404,13 @@ p {
   }
   .banner-bg {
     align-items: flex-start !important;
+  }
+  .banner-cta-group {
+    gap: 0.4rem !important;
+  }
+  .banner-cta-btn {
+    font-size: 12px;
+    padding: 7px 14px;
   }
   .pt1 {
     padding-top: 4px !important;
