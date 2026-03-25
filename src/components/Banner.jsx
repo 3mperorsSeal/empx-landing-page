@@ -25,15 +25,28 @@ const Banner = () => {
           <div className="row mb-5">
             <div className="d-flex align-items-center justify-content-between">
               <img src="assets/images/btn-banner.svg" alt="logo" />
-              <a
-                onClick={() => {
-                  playClickSound();
-                }}
-                href="/dapp"
-                target="_blank"
-              >
-                <button className="custom-btn">Enter Dapp</button>
-              </a>
+              <div className="d-flex align-items-center gap-2 banner-cta-group">
+                <a
+                  onClick={() => {
+                    playClickSound();
+                  }}
+                  href="/dapp"
+                  target="_blank"
+                >
+                  <button className="custom-btn banner-cta-btn">
+                    Enter Dapp
+                  </button>
+                </a>
+                <a
+                  href="https://docs.empx.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="custom-btn banner-cta-btn">
+                    Enter Docs
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="row align-items-center justify-content-between">
