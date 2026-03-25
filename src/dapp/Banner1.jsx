@@ -92,7 +92,7 @@ const MENU_CONFIG = [
         </>
       ),
       buttonText: "Enter Dapp",
-      buttonLink: "https://beta.empx.io/swap?tab=limit",
+      // buttonLink: "https://beta.empx.io/swap?tab=limit",
     },
   },
 
@@ -118,7 +118,7 @@ const MENU_CONFIG = [
 ];
 
 export default function MPXBridgeUI() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(1);
   const activeItem = MENU_CONFIG[activeIndex];
   const soundRef = useRef(null);
 
