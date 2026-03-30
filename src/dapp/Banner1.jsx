@@ -77,6 +77,25 @@ const MENU_CONFIG = [
     },
   },
   {
+    key: "Widget",
+    left: {
+      title: "Widget",
+    },
+    right: {
+      title: "Widget",
+      // subtitle:
+      //   "Integrate our Widget into your dapp and offer seamless cross-chain swaps to your users.",
+      subtitle: (
+        <>
+          Integrate our Widget into your dapp and offer <br /> seamless
+           swaps to your users.
+        </>
+      ),
+      buttonText: "Enter Dapp",
+      buttonLink: "https://widget.empx.io/builder",
+    },
+  },
+  {
     key: "chain",
     left: {
       title: "Limit Orders",
