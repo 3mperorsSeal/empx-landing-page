@@ -12,7 +12,7 @@ const MENU_CONFIG = [
       subtitle:
         "Bridge seamlessly across multipulse block chains Native Bridge and Assets",
       buttonText: "Enter Dapp",
-      buttonLink: "https://dapp.empx.io/via-bridge",
+      buttonLink: "https://dapp.empx.io/native-bridge",
       // extra: {
       //   title: "Hyperlane",
       //   subtitle: "Warp Routes by Hyperlane",
